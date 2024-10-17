@@ -2,9 +2,6 @@ import streamlit as st
 import numpy as np
 from skimage.io import imread
 from skimage.transform import resize
-import cv2
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 from KMeans import kmeans
 from sklearn.metrics import silhouette_score
 
